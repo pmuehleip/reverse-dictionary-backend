@@ -1,0 +1,24 @@
+# Node package directories
+node_modules
+jspm_packages
+
+# Python distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Serverless Framework directories
+.serverless
