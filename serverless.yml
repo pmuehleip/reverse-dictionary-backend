@@ -4,7 +4,7 @@ service: reverse-dictionary-backend
 
 frameworkVersion: '3'
 
-useDotenv: true
+#useDotenv: true
 
 custom:
   wsgi:
@@ -13,7 +13,7 @@ custom:
 
 provider:
   name: aws
-  runtime: python3.9
+  #runtime: python3.9
 
 functions:
   api:
