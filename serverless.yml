@@ -4,9 +4,12 @@ service: reverse-dictionary-backend
 
 frameworkVersion: '3'
 
+useDotenv: true
+
 custom:
   wsgi:
     app: app.app
+    pythonBin: python3
 
 provider:
   name: aws

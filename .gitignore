@@ -4,7 +4,10 @@ jspm_packages
 
 # Python distribution / packaging
 .Python
+__pycache__/
 env/
+venv/
+.env
 build/
 develop-eggs/
 dist/
